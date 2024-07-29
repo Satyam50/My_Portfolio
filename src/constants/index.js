@@ -41,21 +41,21 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React + Vite", "Tailwind0", "Motion Framework"],
   },
   {
     title: "Movie Recommendation System",
-    image: project1,
+    image: project2,
     description:
       "A simple movie recommendation system that selects a movie randomly from a predefined list of popular titles. This system provides quick and easy recommendations for users looking for something to watch",
     technologies: ["HTML", "CSS", "Python", "Jupyter Notebook"],
   },
   {
     title: "StockHub",
-    image: project2,
+    image: project3,
     description:
       "An inventory management system designed to streamline the tracking and management of products. It provides features for adding, listing, editing, and deleting inventory items, ensuring efficient and organized inventory control",
     technologies: ["HTML", "CSS", "PHP","JavaScript"],
