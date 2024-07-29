@@ -3,19 +3,19 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate frontend developer with a flair for creating robust and scalable web applications. My skill set shines in front-end technologies like React and Next.js, complemented by a solid foundation in back-end technologies such as Node.js, MySQL, and MongoDB. Driven by a commitment to innovation, I aim to leverage my expertise to develop cutting-edge solutions that propel business growth and deliver unparalleled user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a final year B.Tech student with a robust understanding and practical experience in the MERN stack, computer networks (CN), database management systems (DBMS), and data structures and algorithms (DSA). Over the past three years, I have diligently honed my skills in these areas through both academic coursework and hands-on projects. My expertise encompasses developing full-stack applications, designing efficient database schemas, optimizing algorithms, and ensuring seamless network communication. I am passionate about leveraging my knowledge to build innovative solutions and contribute effectively to the tech industry.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "May 2024 - June 2024",
+    role: "Frontend Developer",
+    company: "PW Private ltd.",
+    description: `Worked as a frontend developer for the Health Application, focusing on creating a user-friendly interface for nutrition and diet tracking. Developed responsive and interactive features to enhance the overall user experience.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
-  {
+  /*{
     year: "2022 - 2023",
     role: "Frontend Developer",
     company: "Adobe",
@@ -35,42 +35,43 @@ export const EXPERIENCES = [
     company: "Paypal",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  },*/
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React + Vite", "Tailwind0", "Motion Framework"],
   },
   {
-    title: "Blogging Platform",
+    title: "Movie Recommendation System",
+    image: project1,
+    description:
+      "A simple movie recommendation system that selects a movie randomly from a predefined list of popular titles. This system provides quick and easy recommendations for users looking for something to watch",
+    technologies: ["HTML", "CSS", "Python", "Jupyter Notebook"],
+  },
+  {
+    title: "StockHub",
+    image: project2,
+    description:
+      "An inventory management system designed to streamline the tracking and management of products. It provides features for adding, listing, editing, and deleting inventory items, ensuring efficient and organized inventory control",
+    technologies: ["HTML", "CSS", "PHP","JavaScript"],
+  },
+  
+  {
+    title: "PropertEase",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A property finder application that simplifies the process of searching for houses and properties. It allows users to easily find properties based on their preferred locality and specific search criteria",
+    technologies: ["React + Vite" , "JavaScript", "MongoDb"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "INDIA ",
+  phoneNo: "+917080362990 ",
+  email: "satyamprajapati808.com",
 };
