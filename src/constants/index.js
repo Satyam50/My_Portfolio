@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React + Vite", "Tailwind0", "Motion Framework"],
+    technologies: ["HTML", "CSS", "React + Vite", "Tailwind", "Motion Framework"],
   },
   {
     title: "Movie Recommendation System",
