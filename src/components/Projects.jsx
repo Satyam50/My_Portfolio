@@ -22,6 +22,7 @@ function Projects() {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
+            
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
@@ -44,6 +45,16 @@ function Projects() {
                   </span>
                 ))}
               </div>
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block"
+              >
+                <button className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-700">
+                  Show Project
+                </button>
+              </a>
             </div>
           </motion.div>
         ))}

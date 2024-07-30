@@ -44,7 +44,15 @@ export const PROJECTS = [
     image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React + Vite", "Tailwind", "Motion Framework"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "React + Vite",
+      "Tailwind",
+      "Motion Framework",
+    ],
+    githubLink:"https://github.com/Satyam50/My_Portfolio.git",
+    
   },
   {
     title: "Movie Recommendation System",
@@ -52,21 +60,24 @@ export const PROJECTS = [
     description:
       "A simple movie recommendation system that selects a movie randomly from a predefined list of popular titles. This system provides quick and easy recommendations for users looking for something to watch",
     technologies: ["HTML", "CSS", "Python", "Jupyter Notebook"],
+    githubLink: "https://github.com/Satyam50/MOVIE_RECOMMENDER1",
   },
   {
     title: "StockHub",
     image: project3,
     description:
       "An inventory management system designed to streamline the tracking and management of products. It provides features for adding, listing, editing, and deleting inventory items, ensuring efficient and organized inventory control",
-    technologies: ["HTML", "CSS", "PHP","JavaScript"],
+    technologies: ["HTML", "CSS", "PHP", "JavaScript"],
+    githubLink:"https://github.com/Satyam50/StockHub.git"
   },
-  
+
   {
     title: "PropertEase",
     image: project4,
     description:
       "A property finder application that simplifies the process of searching for houses and properties. It allows users to easily find properties based on their preferred locality and specific search criteria",
-    technologies: ["React + Vite" , "JavaScript", "MongoDb"],
+    technologies: ["React + Vite", "JavaScript", "MongoDb"],
+    githubLink:"https://github.com/Satyam50/PropertEase"
   },
 ];
 
